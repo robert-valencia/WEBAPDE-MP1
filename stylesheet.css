@@ -1,0 +1,294 @@
+/*----------------------------------Header Footer---------------------------------*/
+#header{
+	height: 50px; 
+	background-color: #00BFFF;
+	margin:10px;
+	border-radius: 5px;
+	clear:both;
+}
+#Body{
+	position: absolute;
+	margin: auto;
+}
+
+#Footer{
+	position:absolute;
+  bottom:0;	
+  right: 0;
+  left: 0;
+  background-color: #efefef;
+  text-align: center;
+  border-radius: 5px;
+  clear:both;
+}
+
+/*--------------------------------Header's Items-----------------------------------*/
+#UserIcon{
+	float: right;
+	max-height: 80%;
+	margin-right: 10px;
+	margin-top:5px;
+}
+
+#searchBar{
+	float: left;
+	height:30px;
+	width: 500px;
+	margin-top:10px;
+	margin-left: 600px
+}
+
+
+.back_to_home{	
+	float: right;
+	font:30%;
+	color: white;
+	text-align: center;
+	margin-right: 15px;
+	margin-top:15px;
+	height: 20px;
+	width: 60px;
+}
+
+.back_to_home:hover{
+	background-color: #00A0FF;
+	cursor: pointer;
+}
+
+#searchButton{
+	float: left;
+	background: url(magnifyingglass.png) no-repeat;
+	margin-top:10px;
+	height:30px;
+	width: 30px;
+}
+
+/*----------------------------------Buttons Properties----------------------------------*/
+
+
+#view_next_ten{
+	color: blue;
+	display: inline;
+	margin:10px;
+}
+
+#view_next_two{
+	color: blue;
+	display: inline;
+	margin:10px;
+}
+		
+#view_next_two_albums{
+	color: blue;
+	display: inline;
+	margin:10px;
+}
+
+
+#view_photos{
+	color: blue;
+	display: inline;
+	margin:10px;
+}
+
+.back_image{
+	float: right;
+	color: blue;
+	margin:10px;
+}
+
+.back_image:hover{
+	cursor: pointer;
+	background-color: cyan;
+}
+
+#view_more_photos{
+	color: blue;
+	display: inline;
+	margin:10px;
+}	
+
+#view_next_ten:hover{
+	background-color: cyan;
+	cursor: pointer;
+}
+
+#view_next_two:hover{
+	background-color: cyan;
+	cursor: pointer;
+}
+
+#view_next_two_albums:hover{
+	background-color: cyan;
+	cursor: pointer;
+}
+
+#view_photos:hover{
+	background-color: cyan;
+	cursor: pointer;
+}
+
+#view_more_photos:hover{
+	background-color: cyan;
+	cursor: pointer;
+}
+
+/*----------------------------------   Post Properties----------------------------------*/
+
+#posts_container{
+	margin-left: 10px;
+	margin-right: 10px;
+	border-radius: 10px;
+	padding: 20px;
+	background-color: #e5e4d7;
+	width: 1830px;
+	
+}
+
+.container{
+	margin: 10px;
+	border-radius: 10px;
+	padding: 20px;
+	background-color:white;
+	max-width:100%;
+}
+
+.post_username{
+	color: blue; 
+	font-size: 110%;
+	margin: 5px;
+	font-weight: bold;
+}
+
+.post_username:hover{
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.post_title{
+	//text-align:center;
+	color: black;
+	font-weight: bold;
+	margin: 5px;
+	font-size: 110%;
+}
+
+.post_content{
+	margin: 5px;
+}
+	
+
+/*---------------------------------- User Profile's items----------------------------------*/
+.user_container{
+	float: right;
+	margin: 10px;
+	border-radius: 10px;
+	padding: 20px;
+	background-color: #e5e4d7;
+	width: 1830px;
+}
+
+.UserID{
+	Color:#6A5ACD;
+	margin:5px;
+	font-weight: bold;
+	font-size: 110%;
+}
+
+.Name{
+	margin:5px;
+	Color: 	#87CEEB;
+	font-weight: bold;
+	font-size: 110%;
+}
+
+.Username{
+	margin:5px;
+	Color: blue;
+	font-weight: bold;
+	font-size: 110%;
+}
+
+.Email{
+	margin:5px;
+	Color: 	#FF69B4;
+	font-weight: bold;
+	font-size: 110%;
+}
+
+.UserAddress{
+	margin: 5px;
+	
+}
+
+.UserPhone{
+	margin: 10px;
+	
+}
+
+.UserWebsite{
+	margin: 10px;
+	
+}
+
+.UserAddress{
+	margin: 10px;
+	
+}
+
+/*---------------------------------- Album----------------------------------*/
+
+
+#album_container{
+	margin: 10px;
+	border-radius: 10px;
+	padding: 20px;
+	background-color: #e5e4d7;
+	width: 1830px;
+	clear:both;
+}
+
+.album{
+	margin: 10px;
+	background-color: white;
+}
+
+.album:hover{
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+/*---------------------------------- Photo container--------------------------------*/
+
+.image{
+	margin:10px;
+	padding: 20px;
+	display: inline;
+	clear: both;
+}
+
+.image:hover{
+	cursor: pointer;
+}
+
+.full_photo{
+	width: 600px;
+	height:600px;
+	margin: 20px;
+	display: inline;
+}
+
+.full_photo:hover{
+	cursor: pointer;
+	background-color: blue;
+	display: inline-block;
+	padding: 5px;
+	clear: both;
+}
+
+.full_Container{
+	max-width:100%;
+	height:600px;
+	clear:both;
+	display: inline;
+}
